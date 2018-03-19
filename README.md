@@ -6,6 +6,8 @@
 >
 > —[Tamagotchi Wiki](http://tamagotchi.wikia.com/wiki/TamaTown)
 
+This project's goal is to document the various TamaTowns that were once available online and how they functioned.
+
 ### Contents
 
 * [TamaTown Main Site](#tamatown-main-site)
@@ -14,7 +16,7 @@
 * [TamaTown V5](#tamatown-v5)
 * [TamaTown post 2013](#tamatown-post-2013)
 * [Japanese TamaTowns](#japanese-tamatowns)
-* [External links](#external-links)
+* [External Links](#external-links)
 * [Notes](#notes)
 
 ## TamaTown Main Site
@@ -198,7 +200,9 @@ Tama School was originally available at [school.e-tamago.com/pc/flash/tamasc.htm
 
 See all files recovered by the Wayback Machine [here](http://web.archive.org/web/*/school.e-tamago.com/pc/flash/*).
 
-## External links
+## External Links
+
+### On TamaTown
 
 * [Wikipedia, "Tamagotchi Town"](https://en.wikipedia.org/wiki/Tamagotchi_Town)
 * [Archived tamagotchieurope.com (May 9, 2013)](http://web.archive.org/web/20130509173044/http://www.tamagotchieurope.com:80/EN/JinSeiEN/tamaok.html) 
@@ -206,7 +210,11 @@ See all files recovered by the Wayback Machine [here](http://web.archive.org/web
 * [lostmediawiki.com, "Tamagotchi TamaTown (partially found flash game; 2006-2013)"](https://lostmediawiki.com/Tamagotchi_TamaTown_(partially_found_flash_game;_2006-2013))
 * [change.org 'Get TamaTown back!'. Petition closed in 2015](https://www.change.org/p/bandai-co-ltd-get-tamatown-back)
 
-#### TamaTalk threads
+### On Flash
+
+* [Adobe. SWF File Format Specification. Version 19](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/pdf/swf-file-format-spec.pdf)
+
+### TamaTalk threads
 
 * [Playing e-Tamago's games](http://www.tamatalk.com/IB/topic/190345-playing-e-tamagos-games/)
 * [Playing Ura-TamaTown's games](http://www.tamatalk.com/IB/topic/190354-playing-ura-tamatowns-games/)
@@ -216,7 +224,7 @@ See all files recovered by the Wayback Machine [here](http://web.archive.org/web
 
 ## Notes
 
-SWF files were decompiled with [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler).
+I decompiled the SWF files that the Wayback Machine preserved with [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler). It's a powerful open-source tool, way superior to other commercial options in my opinion.
 
 ##### Disclaimer
 
