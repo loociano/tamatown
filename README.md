@@ -1,12 +1,12 @@
 # Waking up Tamagotchi Town —TamaTown
 
+This project's goal is to document the various TamaTowns that were once available online and how they functioned.
+
 > Tamatown was an interactive website for the Tamagotchi Connection Version 3, and later for the Version 4 and Version 4.5. It was an extension to the virtual pets, and allowed players to connect to the site and earn prizes for their Tamagotchi device. 
 >
 > On February 6, 2013 the servers for Tamatown were shut down. Tamatown no longer supports the enhanced gameplay feature for any of the Tamagotchi Connection devices. Any codes that come with certain pets, such as the Music Star, are no longer usable with the TamaTown websites.
 >
 > —[Tamagotchi Wiki](http://tamagotchi.wikia.com/wiki/TamaTown)
-
-This project's goal is to document the various TamaTowns that were once available online and how they functioned.
 
 ### Contents
 
