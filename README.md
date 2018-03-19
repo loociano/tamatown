@@ -38,7 +38,7 @@ TamaTown V3 was originally available at [v3.tamatown.com](http://v3.tamatown.com
 * Characters: `32400.swf`
 * Definitions: `items.xml`
 
-See all recovered files [here](https://github.com/loociano/tamatown/tree/master/v3).
+See all files recovered by the Wayback Machine [here](http://web.archive.org/web/*/v3.tamatown.com/*).
 
 ### Missing files
 
@@ -60,7 +60,7 @@ Note we are not being asked a password quite yet, hence it is sent as '000000000
 
 To access the Parents, Grandparents or King area, TamaTown asks for our Tamagotchi's password:
 
-Decompilation [indicates hardcoded passwords](https://github.com/loociano/tamatown/blob/master/v3/decompiled/tama_shell/scripts/frame_1/DoAction_5.as) to access these 3 areas:
+SWF Decompilation indicates hardcoded passwords to access these 3 areas:
 
 * Parents: type `pass paren`
 * Grandparents: type `pass grand`
@@ -85,7 +85,7 @@ These were found in [archived tamagotchieurope.com (May 9, 2013)](http://web.arc
 * Assets: `charaALL.swf`, `vote_off.swf`
 * Definitions: `tama_games.xml`, `tama_help_welcome.xml`, `tama_info.xml`, `tama_items_characters.xml`, `tama_shell_text.xml`
 
-See all recovered files [here](https://github.com/loociano/tamatown/tree/master/v4).
+See all files recovered by the Wayback Machine [here](http://web.archive.org/web/*/v4.tamatown.com/*).
 
 ### Missing files
 
@@ -102,7 +102,7 @@ TamaTown V5, also known as _The Tama & Earth Expo_, was originally available at 
 
 SWF files for games were first recovered by [SA311 in this TamaTalk thread](http://www.tamatalk.com/IB/topic/190374-tama-earth-expos-games-v5famitama/) using the [web archive (Jan 30, 2010)](http://web.archive.org/web/20100130042932/http://famitama.com/pc/index_en.html) and continued by this project.
 
-See all recovered files [here](https://github.com/loociano/tamatown/tree/master/v5).
+See all files recovered by the Wayback Machine [here](http://web.archive.org/web/*/famitama.com/pc/*).
 
 ### Auth
 
@@ -122,25 +122,8 @@ where:
 
 The expected response is a `text/plain` string with the following parameters:
  
-* `ResultCode` must be `OK` to consider the response valid.
-* `LoginMode`
-* `VER`
-* `CharacterCode`
-* `FamilyCode`
-* `TiesCode`
-* `JPFarm`
-* `JPWagon`
-* `AOFarm`
-* `AOWagon`
-* `NAWagon`
-* `EUFarm`
-* `EUWagon`
-* `JPAnswer`
-* `AOAnswer`
-* `NAAnswer`
-* `EUAnswer`
-* `DateTime`
-* `ResultDetail`
+* `ResultCode`: must be `OK` to consider the response valid.
+* Rest of parameters: `LoginMode`, `VER`, `CharacterCode`, `FamilyCode`, `TiesCode`, `JPFarm`, `JPWagon`, `AOFarm`, `AOWagon`, `NAWagon`, `EUFarm`, `EUWagon`, `JPAnswer`, `AOAnswer`, `NAAnswer`, `EUAnswer`, `DateTime`, `ResultDetail`
 
 Whenever users choose a game to play, they are asked to login. This sends the following request:
 
@@ -159,14 +142,7 @@ where
 The expected response is a `text/plain` string with the following parameters:
 
 * `ResultCode` must be `OK` to consider the response valid.
-* `LoginMode`
-* `VER`
-* `CharacterCode`
-* `FamilyCode`
-* `TiesCode`
-* `PasswordUp`
-* `PasswordDown`
-* `DateTime`
+* Rest of parameters: `LoginMode`, `VER`, `CharacterCode`, `FamilyCode`, `TiesCode`, `PasswordUp`, `PasswordDown`, `DateTime`
 
 After finishing a game, players can logout. This issues the following request:
 
@@ -186,17 +162,13 @@ TamaTown Music Star was originally available at [new.tamatown.com](http://new.ta
 
 ### Recovered files
 
-See recovered files [here](https://github.com/loociano/tamatown/tree/master/v6).
+See all files recovered by the Wayback Machine [here](http://web.archive.org/web/*/new.tamatown.com/*).
 
 ### Auth
 
 ## TamaTown post 2013
 
 Bandai keeps hosting an extremely lighter version of TamaTown Music Star at [bandai.com/tamagotchi/new](http://www.bandai.com/tamagotchi/new/). Upon language selection, English and Spanish redirect to the ['Thank you'](http://www.bandai.com/tamagotchi/thankyou/) and ['Gracias'](http://www.bandai.com/tamagotchi/gracias/) shutdown pages respectively. The site in Portuguese, however, lets user access the forest area and play a rafting game.
-
-### Recovered files
-
-See all recovered files [here](https://github.com/loociano/tamatown/tree/master/v6-post2013).
 
 ## Japanese TamaTowns
 
@@ -208,7 +180,7 @@ Tama Go was originally available at [e-tamago.com/pc/flash/tamago.html](http://e
 
 #### Recovered files
 
-See all recovered files [here](https://github.com/loociano/tamatown/tree/master/tamago).
+See all files recovered by the Wayback Machine [here](http://web.archive.org/web/*/e-tamago.com/pc/flash/*).
 
 ### Ura Tama
 
@@ -216,13 +188,15 @@ Ura Tama was originally available at [e-tamago.com/urapc/flash/uratama.html](htt
 
 #### Recovered files
 
-See all recovered files [here](https://github.com/loociano/tamatown/tree/master/uratama).
+See all files recovered by the Wayback Machine [here](http://web.archive.org/web/*/e-tamago.com/urapc/flash/*).
 
 ### Tama School
 
 Tama School was originally available at [school.e-tamago.com/pc/flash/tamasc.html](http://school.e-tamago.com/pc/flash/tamasc.html), see [this archive from 2010](http://web.archive.org/web/20100201125243/http://school.e-tamago.com/pc/flash/tamasc.html)
 
-See all recovered files [here](https://github.com/loociano/tamatown/tree/master/tamasc).
+#### Recovered files
+
+See all files recovered by the Wayback Machine [here](http://web.archive.org/web/*/school.e-tamago.com/pc/flash/*).
 
 ## External links
 
@@ -246,4 +220,4 @@ SWF files were decompiled with [JPEXS Free Flash Decompiler](https://github.com/
 
 ##### Disclaimer
 
-Tamagotchi is a trademark of Bandai. This website is not affiliated or endorsed by Bandai in any way.
+TamaTown and Tamagotchi are trademarks of Bandai Namco Inc. This website is not affiliated or endorsed by Bandai Namco Inc. in any way.
